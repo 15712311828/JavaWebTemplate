@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaWebTemplate:war">
+    <output-path>$PROJECT_DIR$/../JavaWebTemplate/target</output-path>
+    <root id="archive" name="JavaWebTemplate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JavaWebTemplate:war exploded" />
+    </root>
+  </artifact>
+</component>
