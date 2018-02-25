@@ -3,11 +3,8 @@ package com.java.web.template.dao;
 import com.java.web.template.model.Ticket;
 import com.java.web.template.model.TicketExample;
 import java.util.List;
-
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-@Mapper
 public interface TicketMapper {
     long countByExample(TicketExample example);
 

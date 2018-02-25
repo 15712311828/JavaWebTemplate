@@ -3,11 +3,8 @@ package com.java.web.template.dao;
 import com.java.web.template.model.User;
 import com.java.web.template.model.UserExample;
 import java.util.List;
-
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-@Mapper
 public interface UserMapper {
     long countByExample(UserExample example);
 
