@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215df9bb-6d72-4199-8b90-facdf0682f86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/TicketMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/TicketMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mapper/TicketMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mapper/TicketMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mapper/TicketMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mapper/TicketMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/logback.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/logback.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/out/" />
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/target/" />
@@ -63,7 +60,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="961">
               <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding />
             </state>
@@ -73,12 +70,9 @@
       <file leaf-file-name="HealthCheckController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +80,8 @@
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="-247">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,7 +194,6 @@
       <list>
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/model/UserExample.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/enumType/Sex.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/typeHandler/SexTypeHandler.java" />
@@ -216,6 +209,7 @@
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Application.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml" />
       </list>
     </option>
@@ -289,49 +283,18 @@
               <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -559,19 +522,18 @@
       <updated>1519270352096</updated>
       <workItem from="1519270357666" duration="2606000" />
       <workItem from="1519273526513" duration="16481000" />
-      <workItem from="1519444175948" duration="4978000" />
+      <workItem from="1519444175948" duration="6206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24065000" />
+    <option name="totallyTimeSpent" value="25293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31301484" sideWeight="0.28441754" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5420099" sideWeight="0.28441754" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -587,7 +549,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31301484" sideWeight="0.71558243" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5420099" sideWeight="0.71558243" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4385965" sideWeight="0.49377915" order="7" side_tool="false" content_ui="tabs" />
@@ -729,10 +691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="961">
           <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding />
         </state>
@@ -1066,19 +1025,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/HealthCheckController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="-247">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

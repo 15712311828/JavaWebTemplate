@@ -27,7 +27,6 @@
         </filter>
     </appender>
 
-
     <appender name="infoLogger"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
