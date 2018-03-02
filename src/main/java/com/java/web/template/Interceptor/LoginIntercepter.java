@@ -19,6 +19,9 @@ public class LoginIntercepter implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         Cookie[] cookies = httpServletRequest.getCookies();
+        if(cookies == null){
+            return true;
+        }
         for(Cookie cookie:cookies){
             if(cookie.getName().equals("_u")){
                 User user = userService.getUser(cookie.getValue());

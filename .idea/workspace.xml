@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215df9bb-6d72-4199-8b90-facdf0682f86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/libraries/Maven__com_alibaba_fastjson_1_2_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/artifacts/JavaWebTemplate_war_exploded.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/artifacts/JavaWebTemplate_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configurer/WebConfigurer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/JavaWebTemplate.iml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/JavaWebTemplate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/pom.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/JsonResult.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/JsonResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/out/" />
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/target/" />
@@ -70,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonResult.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/JsonResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -87,8 +83,20 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="627">
+              <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfigurer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configurer/WebConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +117,8 @@
       <file leaf-file-name="LoginIntercepter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="174">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,16 +174,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -215,11 +213,14 @@
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/vo/param/LoginParam.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/ServiceCheckUtil.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/UserContext.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/pom.xml" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/JsonResult.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configure/WebConfigure.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configure/WebConfigurer.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configurer/WebConfigurer.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java" />
       </list>
     </option>
   </component>
@@ -243,7 +244,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="430" />
     <option name="y" value="232" />
     <option name="width" value="1346" />
@@ -308,6 +309,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="configurer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -632,15 +642,15 @@
       <workItem from="1519880702418" duration="730000" />
       <workItem from="1519881490020" duration="9000" />
       <workItem from="1519962954233" duration="2846000" />
-      <workItem from="1519969103148" duration="2842000" />
+      <workItem from="1519969103148" duration="5883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33580000" />
+    <option name="totallyTimeSpent" value="36621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -688,13 +698,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1022,26 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -1058,6 +1041,36 @@
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/Interceptor/LoginIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/configurer/WebConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
