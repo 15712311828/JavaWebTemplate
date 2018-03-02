@@ -4,9 +4,13 @@ import com.java.web.template.dao.UserMapper;
 import com.java.web.template.model.User;
 import com.java.web.template.model.UserExample;
 import com.java.web.template.util.ServiceCheckUtil;
+import com.java.web.template.vo.param.LoginParam;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 @Service
 public class UserService {
@@ -17,10 +21,28 @@ public class UserService {
     public void saveUser(User user){
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andNameEqualTo(user.getName());
         long count =  userMapper.countByExample(userExample);
-        ServiceCheckUtil.checkExist(count,"用户名已存在");
+        ServiceCheckUtil.checkNonExist(count,"用户名已存在");
 
         int result = userMapper.insert(user);
         ServiceCheckUtil.checkInsert(result,"插入失败");
+    }
+
+    public User getUser(String name){
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andNameEqualTo(name);
+        List<User> users = userMapper.selectByExample(userExample);
+        return users.size()==0?null:users.get(0);
+    }
+
+    public void login(LoginParam param, HttpServletResponse response){
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andNameEqualTo(param.getName()).andPasswordEqualTo(param.getPassword());
+        List<User> users = userMapper.selectByExample(userExample);
+        ServiceCheckUtil.checkExist(users,"用户不存在");
+        response.addCookie(new Cookie("_u",users.get(0).getName()));
     }
 }

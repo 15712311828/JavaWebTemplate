@@ -1,4 +1,4 @@
-package com.java.web.template.result;
+package com.java.web.template.common;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
