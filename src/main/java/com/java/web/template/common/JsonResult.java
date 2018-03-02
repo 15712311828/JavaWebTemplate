@@ -2,8 +2,10 @@ package com.java.web.template.common;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Getter
 public class JsonResult<T> {
 
     private Integer status;
