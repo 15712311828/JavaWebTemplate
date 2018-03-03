@@ -4,7 +4,8 @@ import com.java.web.template.common.UserContext;
 import com.java.web.template.model.User;
 import com.java.web.template.common.JsonResult;
 import com.java.web.template.service.UserService;
-import com.java.web.template.vo.param.LoginParam;
+import com.java.web.template.vo.param.UserLoginParam;
+import com.java.web.template.vo.param.UserSignUpParam;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,13 +21,13 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/signUp")
-    public JsonResult signUp(@RequestBody User user){
-        userService.saveUser(user);
+    public JsonResult signUp(@RequestBody UserSignUpParam param){
+        userService.saveUser(param.toUser());
         return JsonResult.success();
     }
 
     @RequestMapping("/login")
-    public JsonResult login(@RequestBody LoginParam param, HttpServletResponse response){
+    public JsonResult login(@RequestBody UserLoginParam param, HttpServletResponse response){
         userService.login(param,response);
         return JsonResult.success();
     }

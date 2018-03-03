@@ -4,7 +4,7 @@ import com.java.web.template.dao.UserMapper;
 import com.java.web.template.model.User;
 import com.java.web.template.model.UserExample;
 import com.java.web.template.util.ServiceCheckUtil;
-import com.java.web.template.vo.param.LoginParam;
+import com.java.web.template.vo.param.UserLoginParam;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -37,7 +37,7 @@ public class UserService {
         return users.size()==0?null:users.get(0);
     }
 
-    public void login(LoginParam param, HttpServletResponse response){
+    public void login(UserLoginParam param, HttpServletResponse response){
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andNameEqualTo(param.getName()).andPasswordEqualTo(param.getPassword());

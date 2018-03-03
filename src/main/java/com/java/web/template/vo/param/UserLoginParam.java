@@ -2,10 +2,14 @@ package com.java.web.template.vo.param;
 
 import lombok.Data;
 
-@Data
-public class LoginParam {
+import javax.validation.constraints.NotNull;
 
+@Data
+public class UserLoginParam {
+
+    @NotNull
     String name;
 
+    @NotNull
     String password;
 }
