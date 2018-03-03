@@ -42,7 +42,9 @@ public class UserService {
         UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andNameEqualTo(param.getName()).andPasswordEqualTo(param.getPassword());
         List<User> users = userMapper.selectByExample(userExample);
-        ServiceCheckUtil.checkExist(users,"用户不存在");
-        response.addCookie(new Cookie("_u",users.get(0).getName()));
+        ServiceCheckUtil.checkExist(users,"用户名或密码错误");
+        Cookie cookie = new Cookie("_u", users.get(0).getName());
+        cookie.setPath("/");
+        response.addCookie(cookie);
     }
 }
