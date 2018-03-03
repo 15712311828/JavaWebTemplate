@@ -12,11 +12,11 @@ import javax.validation.constraints.NotNull;
 public class UserSignUpParam {
 
     @NotNull
-    @Length(min = 3,max = 10,message = "用户名长度为3-10")
+    @Length(min = 3,max = 15,message = "用户名长度为3-10")
     private String name;
 
     @NotNull
-    @Length(min = 6,max = 10,message = "密码长度为3-10")
+    @Length(min = 6,max = 15,message = "密码长度为3-10")
     private String password;
 
 

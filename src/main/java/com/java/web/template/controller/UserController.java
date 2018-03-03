@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/user")
@@ -21,13 +22,13 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("/signUp")
-    public JsonResult signUp(@RequestBody UserSignUpParam param){
+    public JsonResult signUp(@RequestBody @Valid UserSignUpParam param){
         userService.saveUser(param.toUser());
         return JsonResult.success();
     }
 
     @RequestMapping("/login")
-    public JsonResult login(@RequestBody UserLoginParam param, HttpServletResponse response){
+    public JsonResult login(@RequestBody @Valid UserLoginParam param, HttpServletResponse response){
         userService.login(param,response);
         return JsonResult.success();
     }
