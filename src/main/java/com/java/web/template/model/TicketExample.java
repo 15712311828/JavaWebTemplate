@@ -295,63 +295,63 @@ public class TicketExample {
             return (Criteria) this;
         }
 
-        public Criteria andLeftIsNull() {
-            addCriterion("left is null");
+        public Criteria andRemainingIsNull() {
+            addCriterion("remaining is null");
             return (Criteria) this;
         }
 
-        public Criteria andLeftIsNotNull() {
-            addCriterion("left is not null");
+        public Criteria andRemainingIsNotNull() {
+            addCriterion("remaining is not null");
             return (Criteria) this;
         }
 
-        public Criteria andLeftEqualTo(Integer value) {
-            addCriterion("left =", value, "left");
+        public Criteria andRemainingEqualTo(Integer value) {
+            addCriterion("remaining =", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftNotEqualTo(Integer value) {
-            addCriterion("left <>", value, "left");
+        public Criteria andRemainingNotEqualTo(Integer value) {
+            addCriterion("remaining <>", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftGreaterThan(Integer value) {
-            addCriterion("left >", value, "left");
+        public Criteria andRemainingGreaterThan(Integer value) {
+            addCriterion("remaining >", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftGreaterThanOrEqualTo(Integer value) {
-            addCriterion("left >=", value, "left");
+        public Criteria andRemainingGreaterThanOrEqualTo(Integer value) {
+            addCriterion("remaining >=", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftLessThan(Integer value) {
-            addCriterion("left <", value, "left");
+        public Criteria andRemainingLessThan(Integer value) {
+            addCriterion("remaining <", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftLessThanOrEqualTo(Integer value) {
-            addCriterion("left <=", value, "left");
+        public Criteria andRemainingLessThanOrEqualTo(Integer value) {
+            addCriterion("remaining <=", value, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftIn(List<Integer> values) {
-            addCriterion("left in", values, "left");
+        public Criteria andRemainingIn(List<Integer> values) {
+            addCriterion("remaining in", values, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftNotIn(List<Integer> values) {
-            addCriterion("left not in", values, "left");
+        public Criteria andRemainingNotIn(List<Integer> values) {
+            addCriterion("remaining not in", values, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftBetween(Integer value1, Integer value2) {
-            addCriterion("left between", value1, value2, "left");
+        public Criteria andRemainingBetween(Integer value1, Integer value2) {
+            addCriterion("remaining between", value1, value2, "remaining");
             return (Criteria) this;
         }
 
-        public Criteria andLeftNotBetween(Integer value1, Integer value2) {
-            addCriterion("left not between", value1, value2, "left");
+        public Criteria andRemainingNotBetween(Integer value1, Integer value2) {
+            addCriterion("remaining not between", value1, value2, "remaining");
             return (Criteria) this;
         }
     }

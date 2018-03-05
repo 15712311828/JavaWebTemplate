@@ -35,6 +35,10 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.27" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.2.1" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.2.1" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.1" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.45" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.12" />

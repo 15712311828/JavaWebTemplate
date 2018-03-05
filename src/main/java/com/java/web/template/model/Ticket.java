@@ -9,7 +9,7 @@ public class Ticket {
 
     private BigDecimal price;
 
-    private Integer left;
+    private Integer remaining;
 
     public Integer getId() {
         return id;
@@ -35,11 +35,11 @@ public class Ticket {
         this.price = price;
     }
 
-    public Integer getLeft() {
-        return left;
+    public Integer getRemaining() {
+        return remaining;
     }
 
-    public void setLeft(Integer left) {
-        this.left = left;
+    public void setRemaining(Integer remaining) {
+        this.remaining = remaining;
     }
 }
