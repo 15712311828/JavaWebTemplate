@@ -1,5 +1,6 @@
 package com.java.web.template.util;
 
+import com.java.web.template.common.UserContext;
 import com.java.web.template.exception.BusinessException;
 
 import java.util.List;
@@ -39,6 +40,12 @@ public class ServiceCheckUtil {
     public static void checkInsert(Integer result,String message) {
         if(result<=0){
             throw new BusinessException();
+        }
+    }
+
+    public static void checkLogin(){
+        if(UserContext.get()==null){
+            throw new BusinessException("请先登录");
         }
     }
 }

@@ -9,8 +9,8 @@
         <module name="JavaWebTemplate" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaWebTemplate" target="1.6" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="JavaWebTemplate" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

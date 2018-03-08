@@ -49,5 +49,6 @@
         <!-- 指定数据库表 -->
         <table tableName="user"></table>
         <table tableName="ticket"></table>
+        <table tableName="order"></table>
     </context>
 </generatorConfiguration>
