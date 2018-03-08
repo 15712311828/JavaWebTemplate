@@ -42,6 +42,7 @@ public class RedisUtil {
 
     public static <T> T get(String key,Class<T> klass){
         String json=null;
+
         try {
             json = JEDIS.get(key);
         }
@@ -49,11 +50,19 @@ public class RedisUtil {
             log.info("{} err",key);
             return null;
         }
+
         if(json==null){
             log.info("{} miss",key);
             return null;
         }
+        
         log.info("{} hit",key);
-        return JsonUtil.jsonToObject(json,klass);
+        try {
+            return JsonUtil.jsonToObject(json,klass);
+        }
+        catch (Exception e){
+            log.error("redis 返回{}",json,e);
+            return null;
+        }
     }
 }

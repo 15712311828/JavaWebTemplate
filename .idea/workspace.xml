@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="215df9bb-6d72-4199-8b90-facdf0682f86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/out/" />
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/target/" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="1031">
+              <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
@@ -221,8 +221,8 @@
         <option value="$PROJECT_DIR$/../JavaWebTemplate/pom.xml" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mybatis-generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/OrderFormService.java" />
-        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" />
       </list>
     </option>
   </component>
@@ -720,7 +720,7 @@
       <workItem from="1520236401128" duration="9166000" />
       <workItem from="1520253508012" duration="9000" />
       <workItem from="1520318933405" duration="5543000" />
-      <workItem from="1520477012284" duration="10133000" />
+      <workItem from="1520477012284" duration="10868000" />
     </task>
     <servers />
   </component>
@@ -757,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93163000" />
+    <option name="totallyTimeSpent" value="93898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,16 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1217,6 +1207,16 @@
         <state relative-caret-position="219">
           <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1031">
+          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
