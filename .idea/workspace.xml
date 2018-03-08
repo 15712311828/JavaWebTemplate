@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="215df9bb-6d72-4199-8b90-facdf0682f86" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dao/OrderMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dao/TicketMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dao/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/model/Order.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/model/OrderExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/OrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/TicketMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mapper/OrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mapper/OrderMapper.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/dataSources/34b45fbb-78c5-4195-8a0c-b860179d9d9e.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/dataSources/34b45fbb-78c5-4195-8a0c-b860179d9d9e.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/TicketService.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/TicketService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mybatis-generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mybatis-generator/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mybatis-generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/JavaWebTemplate-1.0-SNAPSHOT/WEB-INF/classes/mybatis-generator/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mybatis-generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/../JavaWebTemplate/target/classes/mybatis-generator/generatorConfig.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/OrderController.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/OrderFormController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/OrderService.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/OrderFormService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/out/" />
     <ignored path="$PROJECT_DIR$/../JavaWebTemplate/target/" />
@@ -54,21 +37,17 @@
         <item name="java_web_template@47.95.241.139" type="e3449647:DbNodeDescriptor" />
         <item name="java_web_template" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="java_web_template@47.95.241.139" type="e3449647:DbNodeDescriptor" />
+        <item name="java_web_template" type="e3449647:DbNodeDescriptor" />
+        <item name="ticket" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrderFormService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/OrderFormService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,14 +60,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="19">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/JsonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,18 +156,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderFormController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/controller/OrderFormController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -218,7 +205,6 @@
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/test/java/com/java/web/template/util/RedisUtilTest.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/dto/TicketsDto.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/application.yml" />
@@ -236,6 +222,7 @@
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/resources/mybatis-generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/service/OrderFormService.java" />
         <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java" />
       </list>
     </option>
   </component>
@@ -352,6 +339,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWebTemplate" type="b2602c69:ProjectViewProjectNode" />
@@ -724,7 +720,7 @@
       <workItem from="1520236401128" duration="9166000" />
       <workItem from="1520253508012" duration="9000" />
       <workItem from="1520318933405" duration="5543000" />
-      <workItem from="1520477012284" duration="8339000" />
+      <workItem from="1520477012284" duration="10133000" />
     </task>
     <servers />
   </component>
@@ -761,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91369000" />
+    <option name="totallyTimeSpent" value="93163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,6 +770,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085667" sideWeight="0.36838123" order="7" side_tool="true" content_ui="tabs" />
@@ -792,7 +789,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085667" sideWeight="0.63161874" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4085667" sideWeight="0.63161874" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43822077" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
@@ -951,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/exception/JsonException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -976,13 +966,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1213,11 +1196,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="19">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JavaWebTemplate/src/main/java/com/java/web/template/common/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
