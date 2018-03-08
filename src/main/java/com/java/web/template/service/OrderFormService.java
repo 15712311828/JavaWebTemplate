@@ -3,11 +3,9 @@ package com.java.web.template.service;
 import com.google.common.base.Preconditions;
 import com.java.web.template.common.UserContext;
 import com.java.web.template.constant.OrderResult;
-import com.java.web.template.dao.OrderMapper;
+import com.java.web.template.dao.OrderFormMapper;
 import com.java.web.template.dao.TicketMapper;
-import com.java.web.template.model.Order;
-import com.java.web.template.model.OrderExample;
-import com.java.web.template.model.Ticket;
+import com.java.web.template.model.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,17 +18,17 @@ import java.util.GregorianCalendar;
 
 @Service
 @Slf4j
-public class OrderService {
+public class OrderFormService {
 
     @Resource
-    private OrderMapper orderMapper;
+    private OrderFormMapper orderMapper;
 
     @Resource
     private TicketMapper ticketMapper;
 
     public Long countValidOrderByTicketId(Integer ticketId){
-        OrderExample orderExample = new OrderExample();
-        OrderExample.Criteria criteria = orderExample.createCriteria();
+        OrderFormExample orderExample = new OrderFormExample();
+        OrderFormExample.Criteria criteria = orderExample.createCriteria();
 
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(new Date());
@@ -65,7 +63,7 @@ public class OrderService {
 
     @Transactional
     protected boolean tryToCreateOrder(Integer ticketId,String orderNumber){
-        Order order = new Order();
+        OrderForm order = new OrderForm();
         order.setUserid(UserContext.getId());
         order.setTicketid(ticketId);
         order.setResult(OrderResult.CREATE);

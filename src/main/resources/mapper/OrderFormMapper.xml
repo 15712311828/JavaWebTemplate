@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.java.web.template.dao.OrderMapper">
-  <resultMap id="BaseResultMap" type="com.java.web.template.model.Order">
+<mapper namespace="com.java.web.template.dao.OrderFormMapper">
+  <resultMap id="BaseResultMap" type="com.java.web.template.model.OrderForm">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="number" jdbcType="VARCHAR" property="number" />
     <result column="userId" jdbcType="INTEGER" property="userid" />
@@ -70,13 +70,13 @@
   <sql id="Base_Column_List">
     id, number, userId, ticketId, createTime, result
   </sql>
-  <select id="selectByExample" parameterType="com.java.web.template.model.OrderExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.java.web.template.model.OrderFormExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from order
+    from order_form
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
@@ -87,29 +87,29 @@
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
-    from order
+    from order_form
     where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from order
+    delete from order_form
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.java.web.template.model.OrderExample">
-    delete from order
+  <delete id="deleteByExample" parameterType="com.java.web.template.model.OrderFormExample">
+    delete from order_form
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.java.web.template.model.Order">
-    insert into order (id, number, userId, 
+  <insert id="insert" parameterType="com.java.web.template.model.OrderForm">
+    insert into order_form (id, number, userId, 
       ticketId, createTime, result
       )
     values (#{id,jdbcType=INTEGER}, #{number,jdbcType=VARCHAR}, #{userid,jdbcType=INTEGER}, 
       #{ticketid,jdbcType=INTEGER}, #{createtime,jdbcType=TIMESTAMP}, #{result,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.java.web.template.model.Order">
-    insert into order
+  <insert id="insertSelective" parameterType="com.java.web.template.model.OrderForm">
+    insert into order_form
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
         id,
@@ -151,14 +151,14 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.java.web.template.model.OrderExample" resultType="java.lang.Long">
-    select count(*) from order
+  <select id="countByExample" parameterType="com.java.web.template.model.OrderFormExample" resultType="java.lang.Long">
+    select count(*) from order_form
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map">
-    update order
+    update order_form
     <set>
       <if test="record.id != null">
         id = #{record.id,jdbcType=INTEGER},
@@ -184,7 +184,7 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map">
-    update order
+    update order_form
     set id = #{record.id,jdbcType=INTEGER},
       number = #{record.number,jdbcType=VARCHAR},
       userId = #{record.userid,jdbcType=INTEGER},
@@ -195,8 +195,8 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.java.web.template.model.Order">
-    update order
+  <update id="updateByPrimaryKeySelective" parameterType="com.java.web.template.model.OrderForm">
+    update order_form
     <set>
       <if test="number != null">
         number = #{number,jdbcType=VARCHAR},
@@ -216,8 +216,8 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.java.web.template.model.Order">
-    update order
+  <update id="updateByPrimaryKey" parameterType="com.java.web.template.model.OrderForm">
+    update order_form
     set number = #{number,jdbcType=VARCHAR},
       userId = #{userid,jdbcType=INTEGER},
       ticketId = #{ticketid,jdbcType=INTEGER},

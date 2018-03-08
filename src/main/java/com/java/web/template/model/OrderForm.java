@@ -2,7 +2,7 @@ package com.java.web.template.model;
 
 import java.util.Date;
 
-public class Order {
+public class OrderForm {
     private Integer id;
 
     private String number;
